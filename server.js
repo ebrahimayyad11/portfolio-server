@@ -7,7 +7,7 @@ server.listen(PORT, () => {
   console.log('the port number is : ' + PORT);
 });
 server.get('/', (req, res) => {
-  res.send('amigo')
+  res.send('hello')
 })
 server.get('/test', (req, res) => {
   res.send('every thing is good')
